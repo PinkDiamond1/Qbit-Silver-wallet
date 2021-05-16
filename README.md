@@ -1,4 +1,4 @@
-![Optional Text](../main/feature-image.png)
+![Optional Text](../main/assets/img/feature-image.png)
 
 # Qbit-Silver-wallet
 
