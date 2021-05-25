@@ -85,7 +85,7 @@ const Config = new function() {
     /**
      * The minimum fee allowed for transactions, in Bits 
      */
-    this.minimumFee = 500;
+    this.minimumFee = 100;
 
     /**
      * Mapping of height to mixin maximum and mixin minimum
@@ -163,7 +163,7 @@ const Config = new function() {
      * should be equal to your current block count. If it's significantly different,
      * you can offset your timestamp to fix the discrepancy
      */
-    this.chainLaunchTimestamp = new Date(1000 * 1513031505);
+    this.chainLaunchTimestamp = new Date(1000 * 1609078260);
 
     /**
      * Fee to take on all transactions, in percentage
@@ -187,7 +187,7 @@ const Config = new function() {
     /**
      * Default daemon to use.
      */
-    this.defaultDaemon = new Daemon('207.180.194.21', 20101, undefined, false);
+    this.defaultDaemon = new Daemon('144.91.116.226', 20101, undefined, false);
 
     /**
      * A link to where a bug can be reported for your wallet. Please update
@@ -228,7 +228,7 @@ const Config = new function() {
     this.googlePlayLink = 'https:///store/apps/details?id=com.Qbit Silver';
 
     /**
-     * A url to fetch node info from. Should follow the turtlepay format
+     * A url to fetch node info from. Should follow the Qbit format
      * detailed here: https://docs.qbit.money/blockapi/
      */
     this.nodeListURL = 'https://blockapi.money/node/list/available';
