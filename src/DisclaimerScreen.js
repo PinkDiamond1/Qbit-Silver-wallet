@@ -50,7 +50,7 @@ export class DisclaimerScreen extends React.Component {
                         marginLeft: 30,
                         marginRight: 20
                     }}>
-                        Before we continue, please take a minute to read and agree to the below statements.
+                        Before we continue, please take a minute to read and agree to the statements below .
                     </Text>
 
                     {Config.devFeePercentage > 0 && <View style={{ flexDirection: 'row', marginRight: 20, marginLeft: 25, marginBottom: 20 }}>
