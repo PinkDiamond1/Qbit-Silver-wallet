@@ -4,7 +4,7 @@
 
 Initial Setup
 cd Qbit-Silver-wallet
-yarn install
+yarn add
 Running
 node --max-old-space-size=8192 node_modules/react-native/local-cli/cli.js start (Just need to run this once to start the server, leave it running)
 react-native run-android
